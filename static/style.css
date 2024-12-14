@@ -1,0 +1,171 @@
+/* Temel Stil Sıfırlama */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+/* Konteyner */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Header */
+header {
+  background: #0044cc;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.2rem;
+}
+
+/* Bölüm Başlıkları */
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #0044cc;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Temel İnsan Hakları - Buton Görünümü */
+#rights ul {
+  list-style: none;
+  padding: 0;
+}
+
+#rights ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+#rights ul li a {
+  display: inline-block;
+  background: #5067ff; /* Turuncu renk */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+#rights ul li a:hover {
+  background: #3a24dc; /* Daha koyu turuncu */
+  transform: scale(1.05); /* Hafif büyüme efekti */
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  margin-top: 20px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  header{
+    background: #0044cc;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  header h1{
+    text-align: center;
+  }
+  
+  header nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  header nav ul li{
+    margin: 0 15px;
+  }
+  
+  header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover{
+    text-decoration: underline;
+  }
+  
+  section{
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  section h2{
+    margin-bottom: 20px;
+    color: #0044cc;
+  }
+  
+  section ul{
+    list-style: none;
+    padding: 0;
+  }
+  
+  section ul li{
+    font-size: 18px;
+    margin: 10px 0;
+  }  
+
+
+
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  } 
+   */
